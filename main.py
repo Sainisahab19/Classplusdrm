@@ -533,8 +533,8 @@ async def account_login(bot: Client, m: Message):
                       f"╭━━━━━━━━━━━╮\n"
                       f"🎥VIDEO ID : {str(count).zfill(3)}\n"
                       f"╰━━━━━━━━━━━╯\n\n"
-                      f"📄 **Video Title** ➤`{name1} <b> @SAINI_SAHAB19 </b> .mkv`\n\n"
-                      f"<blockquote>📗 **Batch Name** : {b_name}</blockquote>\n\n"
+                      f"📄 **Video Title** ➤`**{name1}** <b> @SAINI_SAHAB19 </b> **.mkv**`\n\n"
+                      f"<blockquote>📗 **Batch Name** : **{b_name}**</blockquote>\n\n"
                       f"📥 **𝗘𝘅𝘁𝗿𝗮𝗰𝘁𝗲𝗱 𝗕𝘆 ➤**  {MR}\n\n"
                      )                
                 
@@ -542,8 +542,8 @@ async def account_login(bot: Client, m: Message):
                      f"╭━━━━━━━━━━━╮\n"
                      f"📁FILE ID : {str(count).zfill(3)}\n"
                      f"╰━━━━━━━━━━━╯\n\n"
-                     f"📄 **Pdf Title** ➤ `{name1} <b> @SAINI_SAHAB19 </b> .pdf`\n\n"
-                     f"<blockquote>📗 **Batch Name** ➤ {b_name}</blockquote>\n\n"
+                     f"📄 **Pdf Title** ➤ `**{name1}** <b> @SAINI_SAHAB19 </b> **.pdf**`\n\n"
+                     f"<blockquote>📗 **Batch Name** ➤ **{b_name}**</blockquote>\n\n"
                      f"📥 **𝗘𝘅𝘁𝗿𝗮𝗰𝘁𝗲𝗱 𝗕𝘆 ➤**  {MR}\n\n" 
                     )
 
@@ -551,8 +551,8 @@ async def account_login(bot: Client, m: Message):
                       f"╭━━━━━━━━━━━╮\n"
                       f"🎥VIDEO ID : {str(count).zfill(3)}\n"
                       f"╰━━━━━━━━━━━╯\n\n"
-                      f"📄 **Title** : `{name1} <b> @SAINI_SAHAB19 </b> .jpg`\n\n"
-                      f"<blockquote>📗 **Batch Name** ➤ {b_name}</blockquote>\n\n"
+                      f"📄 **Title** : `**{name1}** <b> @SAINI_SAHAB19 </b> **.jpg**`\n\n"
+                      f"<blockquote>📗 **Batch Name** ➤ **{b_name}**</blockquote>\n\n"
                       f"📥 **Extracted By** : {MR}\n\n"
                       )                
                
@@ -560,8 +560,8 @@ async def account_login(bot: Client, m: Message):
                      f"╭━━━━━━━━━━━╮\n"
                      f"🎥VIDEO ID : {str(count).zfill(3)}\n"
                      f"╰━━━━━━━━━━━╯\n\n"
-                     f"📄 **Video Title ** ➤ `{name1} <b> @SAINI_SAHAB19 </b> .mkv`\n\n"
-                     f"<blockquote>📗 **Batch Name** ➤ {b_name}</blockquote>\n\n"
+                     f"📄 **Video Title ** ➤ `**{name1}** <b> @SAINI_SAHAB19 </b> .mkv`\n\n"
+                     f"<blockquote>📗 **Batch Name** ➤ **{b_name}**</blockquote>\n\n"
                      f"📥 **𝗘𝘅𝘁𝗿𝗮𝗰𝘁𝗲𝗱 𝗕𝘆 ➤**  {MR}\n\n" 
                      )
 
