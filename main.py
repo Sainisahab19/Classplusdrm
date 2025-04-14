@@ -533,26 +533,26 @@ async def account_login(bot: Client, m: Message):
                       f"╭━━━━━━━━━━━╮\n"
                       f"🎥VIDEO ID : {str(count).zfill(3)}\n"
                       f"╰━━━━━━━━━━━╯\n\n"
-                      f"📄 **Title** : `{name1}.mkv`\n\n"
+                      f"📄 **Video Title** ➤`{name1} <b> @SAINI_SAHAB19 </b> .mkv`\n\n"
                       f"<blockquote>📗 **Batch Name** : {b_name}</blockquote>\n\n"
-                      f"📥 **Extracted By** : {MR}\n\n"
+                      f"📥 **𝗘𝘅𝘁𝗿𝗮𝗰𝘁𝗲𝗱 𝗕𝘆 ➤**  {MR}\n\n"
                      )                
                 
                cc1 = (             
                      f"╭━━━━━━━━━━━╮\n"
                      f"📁FILE ID : {str(count).zfill(3)}\n"
                      f"╰━━━━━━━━━━━╯\n\n"
-                     f"📄 **Title** : `{name1}.pdf`\n\n"
-                     f"<blockquote>📗 **Batch Name** : {b_name}</blockquote>\n\n"
-                     f"📥 **Extracted By** : {MR}\n\n" 
+                     f"📄 **Pdf Title** ➤ `{name1} <b> @SAINI_SAHAB19 </b> .pdf`\n\n"
+                     f"<blockquote>📗 **Batch Name** ➤ {b_name}</blockquote>\n\n"
+                     f"📥 **𝗘𝘅𝘁𝗿𝗮𝗰𝘁𝗲𝗱 𝗕𝘆 ➤**  {MR}\n\n" 
                     )
 
                cc2 = (
                       f"╭━━━━━━━━━━━╮\n"
                       f"🎥VIDEO ID : {str(count).zfill(3)}\n"
                       f"╰━━━━━━━━━━━╯\n\n"
-                      f"📄 **Title** : `{name1}.jpg`\n\n"
-                      f"<blockquote>📗 **Batch Name** : {b_name}</blockquote>\n\n"
+                      f"📄 **Title** : `{name1} <b> @SAINI_SAHAB19 </b> .jpg`\n\n"
+                      f"<blockquote>📗 **Batch Name** ➤ {b_name}</blockquote>\n\n"
                       f"📥 **Extracted By** : {MR}\n\n"
                       )                
                
@@ -560,15 +560,15 @@ async def account_login(bot: Client, m: Message):
                      f"╭━━━━━━━━━━━╮\n"
                      f"🎥VIDEO ID : {str(count).zfill(3)}\n"
                      f"╰━━━━━━━━━━━╯\n\n"
-                     f"📄 **Title** : `{name1}.mkv`\n\n"
-                     f"<blockquote>📗 **Batch Name** : {b_name}</blockquote>\n\n"
-                     f"📥 **Extracted By** : {MR}\n\n" 
+                     f"📄 **Video Title ** ➤ `{name1} <b> @SAINI_SAHAB19 </b> .mkv`\n\n"
+                     f"<blockquote>📗 **Batch Name** ➤ {b_name}</blockquote>\n\n"
+                     f"📥 **𝗘𝘅𝘁𝗿𝗮𝗰𝘁𝗲𝗱 𝗕𝘆 ➤**  {MR}\n\n" 
                      )
 
-                #cc = f'**╭── ⋆⋅☆⋅⋆ ──╮**\n✦ **{str(count).zfill(3)}** ✦\n**╰── ⋆⋅☆⋅⋆ ──╯**\n\n🎭 **Title:** `{name1} 😎 .mkv`\n🖥️ **Resolution:** [{res}]\n\n📘 **Course:** `{b_name}`\n\n🚀 **Extracted By:** `{MR}`'
-                #cc1 = f'**╭── ⋆⋅☆⋅⋆ ──╮**\n✦ **{str(count).zfill(3)}** ✦\n**╰── ⋆⋅☆⋅⋆ ──╯**\n\n🎭 **Title:** `{name1} 😎 .pdf`\n\n📘 **Course:** `{b_name}`\n\n🚀 **Extracted By:** `{MR}`'
-                #cc2 = f'**╭── ⋆⋅☆⋅⋆ ──╮**\n✦ **{str(count).zfill(3)}** ✦\n**╰── ⋆⋅☆⋅⋆ ──╯**\n\n🎭 **Title:** `{name1} 😎 .jpg`\n\n📘 **Course:** `{b_name}`\n\n🚀 **Extracted By:** `{MR}`'
-                #ccyt = f'**╭── ⋆⋅☆⋅⋆ ──╮**\n✦ **{str(count).zfill(3)}** ✦\n**╰── ⋆⋅☆⋅⋆ ──╯**\n\n🎭 **Title:** `{name1} 😎 .mkv`\n🎬 **Video Link:** {url}\n🖥️ **Resolution:** [{res}]\n\n📘 **Course:** `{b_name}`\n\n🚀 **Extracted By:** `{MR}`'
+                #cc = f'**╭── ⋆⋅☆⋅⋆ ──╮**\n✦ **{str(count).zfill(3)}** ✦\n**╰── ⋆⋅☆⋅⋆ ──╯**\n\n🎭 **Title:** `{name1} <b> @SAINI_SAHAB19 </b> .mkv`\n🖥️ **Resolution:** [{res}]\n\n📘 **Course:** `{b_name}`\n\n🚀 **Extracted By:** `{MR}`'
+                #cc1 = f'**╭── ⋆⋅☆⋅⋆ ──╮**\n✦ **{str(count).zfill(3)}** ✦\n**╰── ⋆⋅☆⋅⋆ ──╯**\n\n🎭 **Title:** `{name1} <b> @SAINI_SAHAB19 </b> .pdf`\n\n📘 **Course:** `{b_name}`\n\n🚀 **Extracted By:** `{MR}`'
+                #cc2 = f'**╭── ⋆⋅☆⋅⋆ ──╮**\n✦ **{str(count).zfill(3)}** ✦\n**╰── ⋆⋅☆⋅⋆ ──╯**\n\n🎭 **Title:** `{name1} <b> @SAINI_SAHAB19 </b> .jpg`\n\n📘 **Course:** `{b_name}`\n\n🚀 **Extracted By:** `{MR}`'
+                #ccyt = f'**╭── ⋆⋅☆⋅⋆ ──╮**\n✦ **{str(count).zfill(3)}** ✦\n**╰── ⋆⋅☆⋅⋆ ──╯**\n\n🎭 **Title:** `{name1} <b> @SAINI_SAHAB19 </b> .mkv`\n🎬 **Video Link:** {url}\n🖥️ **Resolution:** [{res}]\n\n📘 **Course:** `{b_name}`\n\n🚀 **Extracted By:** `{MR}`'
 
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             
                if "drive" in url:                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  
