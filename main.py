@@ -361,8 +361,8 @@ async def account_login(bot: Client, m: Message):
                 img_count += 1
            elif ".zip" in url:
                 zip_count += 1
-          else:
-            video_count += 1
+           else:
+             video_count += 1
        os.remove(x)
             # print(len(links)
     except:
