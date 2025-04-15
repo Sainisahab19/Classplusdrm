@@ -355,14 +355,14 @@ async def account_login(bot: Client, m: Message):
        links = []
        for i in content:
            links.append(i.split("://", 1))
-             if ".pdf" in url:
-                    pdf_count += 1
-                elif url.endswith((".png", ".jpeg", ".jpg")):
-                    img_count += 1
-                elif ".zip" in url:
-                    zip_count += 1
-                else:
-                    video_count += 1
+           if ".pdf" in url:
+                pdf_count += 1
+           elif url.endswith((".png", ".jpeg", ".jpg")):
+                img_count += 1
+           elif ".zip" in url:
+                zip_count += 1
+          else:
+            video_count += 1
        os.remove(x)
             # print(len(links)
     except:
