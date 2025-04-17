@@ -334,7 +334,7 @@ async def download_and_decrypt_video(url, cmd, name, key):
             return None  
 
 async def download_and_decrypt_pdf(url, name, key):  
-    download_cmd = f'yt-dlp -o "{name}.pdf" "{url}" -R 25 --fragment-retries 25'  
+    download_cmd = f'yt-dlp -o "{name2}.pdf" "{url}" -R 25 --fragment-retries 25'  
     try:  
         subprocess.run(download_cmd, shell=True, check=True)  
         print(f"Downloaded PDF: {name}.pdf")  
@@ -342,7 +342,7 @@ async def download_and_decrypt_pdf(url, name, key):
         print(f"Error during download: {e}")  
         return False  
     
-    file_path = f"{name}.pdf"  
+    file_path = f"{name2}.pdf"  
     if not os.path.exists(file_path):  
         print(f"The file {file_path} does not exist.")  
         return False  
